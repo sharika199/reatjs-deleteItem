@@ -1,0 +1,39 @@
+/* Write your CSS here */
+h1 {
+  font-size: 45px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+.bg1 {
+  background-color: chocolate;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+.bg2 {
+  background-color: antiquewhite;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 789px) {
+  .bg2 {
+    padding: 48px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+  }
+}
+.bg3 {
+  display: flex;
+}
